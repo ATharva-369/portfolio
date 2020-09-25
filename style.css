@@ -1,0 +1,111 @@
+h1 {
+    /* text-indent: 50%; */
+    /* position: relative; */
+    font-family: Arial, Helvetica, sans-serif;
+    color:white
+    /* animation-name: test;
+    animation-duration: 6s;
+    animation-iteration-count: infinite; */
+}
+
+/* h1:hover {
+    transform: translate(500px, 100px);
+} */
+
+p {
+    color: #99738e;
+    text-indent: 50%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* 
+* {
+    background-color: tomato;
+} */
+
+h3 {
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+h2 {
+    text-indent: 25%;
+    color: white;
+    font-family: fantasy;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* *{
+    border:solid
+} */
+
+@keyframes test {
+    /* from {
+        background-color: tomato;
+    }
+    to {
+        background-color: peachpuff;
+    }*/
+    0% {
+        background-color: tomato;
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: yellow;
+        left: 0px;
+        top: 300px;
+    }
+    100% {
+        background-color: blueviolet;
+    }
+}
+
+body {
+    background-color: #2f2fa2;
+  
+}
+
+.head {
+    width: 300px;
+    height: 75px;
+    background-color: #f64c72;
+    transition: width 4s;
+}
+
+.head:hover {
+    width: 500px;
+    /* transform: translate(500px,100px); */
+    /* transform: rotate(-30deg); */
+    /* transform:scale(.5,.5); */
+    /* transform:skew(20deg,10deg) */
+}
+a{
+color:white;
+}
+.greetings{
+    color:white;
+    }
+h4:hover{
+    color:black;
+    animation-name: test;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transition: 4s;
+}    
+.sub h3{
+    color:white
+}
+.sub :hover{
+    color:black;
+    animation-name: test;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;   
+    transition: 4s;
+}
