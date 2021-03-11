@@ -1,16 +1,13 @@
 h1 {
-    /* text-indent: 50%; */
-    /* position: relative; */
-    font-family: Arial, Helvetica, sans-serif;
-    color:white
-    /* animation-name: test;
-    animation-duration: 6s;
-    animation-iteration-count: infinite; */
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#F0F7EF;
+    width:100%;
+
+
 }
 
-/* h1:hover {
-    transform: translate(500px, 100px);
-} */
+
 
 p {
     color: #99738e;
@@ -18,21 +15,15 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* 
-* {
-    background-color: tomato;
-} */
 
-h3 {
-    color:white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-}
+
+
 
 h2 {
     text-indent: 25%;
-    color: white;
-    font-family: fantasy;
+    color:#F0F7EF;
+    font-family: 'K2D', sans-serif;
+    align-self:baseline;
 }
 
 .footer {
@@ -40,72 +31,45 @@ h2 {
     justify-content: flex-end;
 }
 
-/* *{
-    border:solid
-} */
-
-@keyframes test {
-    /* from {
-        background-color: tomato;
-    }
-    to {
-        background-color: peachpuff;
-    }*/
-    0% {
-        background-color: tomato;
-        left: 0px;
-        top: 0px;
-    }
-
-    50% {
-        background-color: yellow;
-        left: 0px;
-        top: 300px;
-    }
-    100% {
-        background-color: blueviolet;
-    }
+.credits{
+padding-top: 27%;
+text-align: right;
 }
 
+
+
 body {
-    background-color: #2f2fa2;
+    background-image: url('space.jpg');
   
 }
 
 .head {
-    width: 300px;
+    width: auto;
     height: 75px;
-    background-color: #f64c72;
-    transition: width 4s;
+    padding-left: 45%;
 }
 
-.head:hover {
-    width: 500px;
-    /* transform: translate(500px,100px); */
-    /* transform: rotate(-30deg); */
-    /* transform:scale(.5,.5); */
-    /* transform:skew(20deg,10deg) */
-}
+
 a{
 color:white;
 }
 .greetings{
-    color:white;
+    color:#F0F7EF;
     }
-h4:hover{
-    color:black;
-    animation-name: test;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    transition: 4s;
-}    
+ 
 .sub h3{
-    color:white
+    color:white;
 }
-.sub :hover{
-    color:black;
-    animation-name: test;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;   
-    transition: 4s;
+h4 {
+    color:white;
+}
+.credits h4 a{
+    color:white;
+    text-decoration:none
+}
+
+h2:hover{
+    background-color:#7A7F9F;
+    width:50%;
+   
 }
