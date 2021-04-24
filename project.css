@@ -1,10 +1,14 @@
-.heading{
-    width:350px;
-    background-color: #f64c72;
-    color: white;
-    transition: 4s;
-}
 
+h1{
+    font-size: 300%;
+    font-family:  'Lora', serif;
+    /* background-color: #CBBEA4; */
+    width :max-content;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 400%;
+}
 p {
     color: yellow;
     text-indent: 25;
@@ -14,13 +18,18 @@ p {
 }
 
 body {
-    background-color: #2f2fa2;
+background-color:#E8F0F7;
+;
 }
 
 h3 {
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
+    color: #8357CD;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color:whitesmoke;
+    width:max-content;
+    
+    
+    
 }
 
 .footer {
@@ -28,9 +37,6 @@ h3 {
     justify-content: flex-end;
 }
 
-* {
-    /* border: solid; */
-}
 
 .grid {
     display: flex;
@@ -77,45 +83,9 @@ a:visited {
     opacity: 0;
 }
 
-.item:hover p1 {
-    opacity: 1;
-}
-.heading:hover{
-    width:525px;
-}
-@keyframes test {
-    /* from {
-        background-color: tomato;
-    }
-    to {
-        background-color: peachpuff;
-    }*/
-    0% {
-        background-color: tomato;
-        left: 0px;
-        top: 0px;
-    }
 
-    50% {
-        background-color: yellow;
-        left: 0px;
-        top: 300px;
-    }
-    100% {
-        background-color: blueviolet;
-    }
-}
 
-.menu:hover{
-        color:black;
-    animation-name: test;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;   
-    transition: 4s;
-}
-.menu h3{
-    color:white;
-}
+
 p{
     color:#99738e
 }
